@@ -62,7 +62,53 @@
       <section class="filter">
         <h2 class="visually-hidden">Фильтр товаров</h2>
         <b>Фильтр</b>
-        <!--Здесь будет форма-->
+        <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Цена:</legend>
+            <div class="filter-form-range"></div>
+            <input type="number" name="min-price">-
+            <input type="number" name="max-price">
+          </fieldset>
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="bosch" id="filter-form-bosch" checked>
+                <label for="filter-form-bosch">Bosch</label>
+              </li>
+              <li>
+                <input type="checkbox" name="interskol" id="filter-form-interskol">
+                <label for="filter-form-interskol">Интерскол</label>
+              </li>
+              <li>
+                <input type="checkbox" name="makita" id="filter-form-makita" checked>
+                <label for="filter-form-makita">Makita</label>
+              </li>
+              <li>
+                <input type="checkbox" name="dewalt" id="filter-form-dewalt">
+                <label for="filter-form-dewalt">Dewalt</label>
+              </li>
+              <li>
+                <input type="checkbox" name="hitachi" id="filter-form-hitachi">
+                <label for="filter-form-hitachi">Hitachi</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Питание:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="source-of-power" value="accumulator" id="filter-form-accumulator">
+                <label for="filter-form-accumulator">Аккумуляторные</label>
+              </li>
+              <li>
+                <input type="radio" name="source-of-power" value="rosette" id="filter-form-rossete">
+                <label type="filter-form-rossete">Сетевые</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>    
+        </form>
       </section>
 
       <section class="catalog">
