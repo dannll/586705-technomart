@@ -251,7 +251,23 @@
     </section>
 
     <section class="modal-write-us">
-      <!--Здесь будет форма-->
+      <form class="modal-form" method="post" action="https://echo.htmlacademy.ru">
+        <p>
+          <label for="modal-form-name">Ваше имя:</label>
+          <br>
+          <input type="text" name="name" id="modal-form-name" placeholder="Представьтесь, пожалуйста">
+        </p>
+
+          <label for="modal-form-email">Ваш e-mail</label>
+          <br>
+          <input type="email" name="email" id="modal-form-email" placeholder="Для отправки ответа">
+        </p>
+        <p>
+          <label for="modal-form-letter">Текст письма:</label>
+          <textarea name="letter" id="modal-form-letter" placeholder="В свободной форме"></textarea>
+        </p>
+        <button type="submit">Отправить</button>
+      </form>
       <span class="modal-close"></span>
     </section>
 
