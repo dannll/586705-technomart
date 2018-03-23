@@ -27,7 +27,8 @@ a {
 }
 
 .main-header {
-  background-color: #f3f7f9
+  background-image: url("../img/background-texture.jpg");
+  background-color: #f3f7f9;
 }
 
 .main-header a {
@@ -341,6 +342,7 @@ a.header-contacts-phone {
 }
 
 .service {
+  background-image: url("../img/background-texture.jpg");
   background-color: #f3f8f9;
 }
 
