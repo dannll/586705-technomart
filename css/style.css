@@ -49,10 +49,6 @@ a {
   background-color: #ee3643;
 }
 
-.top-menu a {
-  outline: 0;
-}
-
 .header-logo:hover,
 .header-logo:focus {
   background-color: #ca2c37;
@@ -65,7 +61,6 @@ a {
 .header-form input[type="search"] {
   border: none;
   background-color: #293449;
-  outline: 0;
 }
 
 .header-form input[type="search"]:hover,
@@ -136,9 +131,28 @@ a.header-contacts-phone {
   color: #000000;
 }
 
-.header-login:hover a,
-.header-login:focus a,
-.header-registration:hover a,
-.header-registration:focus a {
+.header-login a:hover,
+.header-login a:focus,
+.header-registration a:hover,
+.header-registration a:focus {
   color: #ee3643;
+}
+
+.main-navigation a {
+  background-color: #32425c;
+}
+
+.main-navigation li{
+  list-style: none;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus {
+  background-color: #293449;
+}
+
+.main-navigation a:active {
+  color: rgba(255, 255, 255, 0.5);
+
+  background-color: #1d2739;
 }
