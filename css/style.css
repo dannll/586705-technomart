@@ -339,3 +339,76 @@ a.header-contacts-phone {
 .popular-brand-header a:active {
   background-color: #ba2732;
 }
+
+.service {
+  background-color: #f3f8f9;
+}
+
+.service-header h2,
+.description-company h2,
+.description-contacts h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.service p,
+.description p {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.service h3 {
+  font-size: 36px;
+  line-height: 36px;
+  color: #32425c;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.list-service  {
+  list-style: none;
+}
+
+.list-service a {
+  font-size: 21px;
+  line-height: 30px;
+  color: #ffffff;
+
+  background-color: #32425c;
+}
+
+.list-service a:hover {
+  background-color: #293449;
+}
+
+.description-company ul {
+  list-style: none;
+}
+
+.description-company li {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.description a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.description a:hover,
+.description a:focus {
+  background-color: #ca2c37;
+}
+
+.description a:active {
+  background-color: #ba2732;
+}
