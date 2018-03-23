@@ -14,3 +14,91 @@ body {
 a {
   text-decoration: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: #f3f7f9
+}
+
+.main-header a {
+  color: #ffffff;
+}
+
+.top-menu {
+  font-size: 17px;
+  line-height: 18px;
+
+  background-color: #293449;
+}
+
+.header-logo {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  background-color: #ee3643;
+}
+
+.top-menu a {
+  outline: 0;
+}
+
+.header-logo:hover,
+.header-logo:focus {
+  background-color: #ca2c37;
+}
+
+.header-logo:active {
+  background-color: #ba2732;
+}
+
+.header-form input[type="search"] {
+  border: none;
+  background-color: #293449;
+  outline: 0;
+}
+
+.header-form input[type="search"]:hover,
+.main-header-bookmark a:hover,
+.main-header-bookmark a:focus,
+.main-header-cart a:hover,
+.main-header-cart a:focus {
+  background-color: #212a3a;
+}
+
+.main-header-bookmark a:active,
+.main-header-cart a:active {
+  background-color: #161d29;
+}
+
+.header-form input[type="search"]::placeholder {
+  color: #ffffff;
+}
+
+.header-form input[type="search"]:focus,
+.header-form input[type="search"]:active {
+  background-color: #ffffff
+}
+
+.main-header-order a{
+  background-color: #63a63e;
+}
+
+.main-header-order a:hover,
+.main-header-order a:focus {
+  background-color: #5fbb2d;
+}
+
+.main-header-order a:active {
+  background-color: #518534;
+}
