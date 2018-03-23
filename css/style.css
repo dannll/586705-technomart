@@ -97,6 +97,8 @@ a {
 }
 
 .main-header-order a:active {
+  color: rgba(255, 255, 255, 0.6);
+
   background-color: #518534;
 }
 
