@@ -59,6 +59,11 @@ a {
   background-color: #ba2732;
 }
 
+.header-form {
+  background-image: url("../img/icon-search.svg");
+  background-repeat: no-repeat;
+}
+
 .header-form input[type="search"] {
   border: none;
   background-color: #293449;
@@ -70,6 +75,16 @@ a {
 .main-header-cart a:hover,
 .main-header-cart a:focus {
   background-color: #212a3a;
+}
+
+.main-header-bookmark {
+  background-image: url("../img/icon-bookmark.svg");
+  background-repeat: no-repeat;
+}
+
+.main-header-cart {
+  background-image: url("../img/cart-icon.svg");
+  background-repeat: no-repeat;
 }
 
 .main-header-bookmark a:active,
@@ -110,7 +125,12 @@ a {
   color: #ee3643;
 }
 
-a.header-contacts-phone {
+.header-contacts-phone {
+  background-image: url("../img/icon-phone.svg");
+  background-repeat: no-repeat;
+}
+
+.header-contacts-phone a {
   font-size: 21px;
   line-height: 21px;
   color: #ee3643;
@@ -127,6 +147,11 @@ a.header-contacts-phone {
   background-color: #ffffff;
 
   list-style: none;
+}
+
+.header-login {
+  background-image: url("../img/icon-login.svg");
+  background-repeat: no-repeat;
 }
 
 .header-login a,
