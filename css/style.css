@@ -102,3 +102,43 @@ a {
 .main-header-order a:active {
   background-color: #518534;
 }
+
+.main-header-description {
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+  color: #ee3643;
+}
+
+a.header-contacts-phone {
+  font-size: 21px;
+  line-height: 21px;
+  color: #ee3643;
+}
+
+.header-contacts-address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #32425c;
+}
+
+.header-login,
+.header-registration {
+  background-color: #ffffff;
+
+  list-style: none;
+}
+
+.header-login a,
+.header-registration a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.header-login:hover a,
+.header-login:focus a,
+.header-registration:hover a,
+.header-registration:focus a {
+  color: #ee3643;
+}
