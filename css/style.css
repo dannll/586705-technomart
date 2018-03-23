@@ -478,3 +478,35 @@ a.header-contacts-phone {
 .footer-social ul {
   font-size: 0;
 }
+
+.modal-write-us label {
+  font-size: 18px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.modal-write-us input::placeholder,
+.modal-write-us textarea::placeholder {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #a9a9a9;
+}
+
+.modal-write-us button {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  border: none;
+  background-color: #ee3643;
+}
+
+.modal-write-us button:hover,
+.modal-write-us button:focus {
+  background-color: #ca2c37;
+}
+
+.modal-write-us button:active {
+  background-color: #ba2732;
+}
