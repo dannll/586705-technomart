@@ -73,6 +73,8 @@ a {
 
 .main-header-bookmark a:active,
 .main-header-cart a:active {
+  color: rgba(255, 255, 255, 0.6);
+
   background-color: #161d29;
 }
 
@@ -136,6 +138,11 @@ a.header-contacts-phone {
 .header-registration a:hover,
 .header-registration a:focus {
   color: #ee3643;
+}
+
+.header-login a:active,
+.header-registration a:active {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .main-navigation a {
