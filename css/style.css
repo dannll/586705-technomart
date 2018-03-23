@@ -242,3 +242,100 @@ a.header-contacts-phone {
 .offering .offering-btn-open:active {
   background-color: #ba2732;
 }
+
+.popular-product-header {
+  background-color: #f9f5f0;
+}
+
+.popular-product-header h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.popular-product-header a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.popular-product-header a:hover,
+.popular-product-header a:focus {
+  background-color: #ca2c37;
+}
+
+.popular-product-header a:active {
+  background-color: #ba2732;
+}
+
+.popular-product li h3 {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.popular-product li del {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #a9a9a9;
+  font-weight: 700;
+}
+
+.popular-product li ins {
+  text-decoration: none;
+}
+
+.popular-product li a {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+  font-weight: 700;
+
+  background-color: #ee3643;
+}
+
+.popular-product a:hover,
+.popular-product a:focus {
+  background-color: #ca2c37;
+}
+
+.popular-product a:active {
+  background-color: #ba2732;
+}
+
+.popular-brand-header {
+  background-color: #f9f5f0;
+}
+
+.popular-brand-header h2 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.popular-brand-header a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.popular-brand-header a:hover,
+.popular-brand-header a:focus {
+  background-color: #ca2c37;
+}
+
+.popular-brand-header a:active {
+  background-color: #ba2732;
+}
