@@ -412,3 +412,69 @@ a.header-contacts-phone {
 .description a:active {
   background-color: #ba2732;
 }
+
+.main-footer-top {
+  background-color: #32425c;
+}
+
+.main-footer-logo {
+  font-size: 30px;
+  line-height: 30px;
+
+  background-color: #ee3643;
+}
+
+.footer-navigation-section,
+.footer-navigation-catalog {
+  list-style: none;
+}
+
+.footer-navigation-section a,
+.footer-contacts,
+.footer-contacts a,
+.footer-navigation-catalog a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #f3f7f9;
+  font-weight: 400;
+}
+
+.footer-navigation-catalog a {
+  color: #ffd180;
+}
+
+.footer-navigation-section a:hover,
+.footer-navigation-section a:focus,
+.footer-navigation-catalog a:hover,
+.footer-navigation-catalog a:focus,
+.main-footer-bottom a:hover,
+.main-footer-bottom a:focus {
+  text-decoration: underline;
+}
+
+.footer-navigation-section a:active {
+  color: rgba(241, 245, 247, 0.5);
+}
+
+.footer-navigation-catalog a:active {
+  color: rgba(255, 209, 128, 0.5);
+}
+
+.main-footer-bottom {
+  font-size: 16px;
+  line-height: normal: 18px;
+
+  background-color: #293449;
+}
+
+.main-footer-bottom a {
+  color: #ffd180;
+}
+
+.main-footer-bottom a:active {
+  color: #ee3643;
+}
+
+.footer-social ul {
+  font-size: 0;
+}
