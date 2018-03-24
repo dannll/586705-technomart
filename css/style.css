@@ -520,13 +520,15 @@ a {
   background-color: #ba2732;
 }
 
-.popular-product .new-item {
+.popular-product .new-item,
+.catalog-list .new-item {
   background-image: url("../img/new.png");
   background-repeat: no-repeat;
   background-position: top right;
 }
 
-.popular-product li h3 {
+.popular-product li h3,
+.catalog-list li h3 {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 20px;
@@ -534,7 +536,8 @@ a {
   font-weight: 700;
 }
 
-.popular-product li del {
+.popular-product li del,
+.catalog-list li del {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -547,7 +550,9 @@ a {
 }
 
 .popular-product ins,
-.popular-product span {
+.popular-product span,
+.catalog-list ins,
+.catalog-list span {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
