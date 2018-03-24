@@ -562,6 +562,22 @@ a {
   background-color: #ee3643;
 }
 
+.pagination-item a {
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.pagination-item-current a {
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.about-item {
+  background-color: #f2f6f8;
+}
+
 .popular-brand-header {
   background-color: #f9f5f0;
 }
@@ -598,7 +614,8 @@ a {
 
 .service-header h2,
 .description-company h2,
-.description-contacts h2 {
+.description-contacts h2,
+.about-item b {
   font-size: 30px;
   line-height: 30px;
   color: #000000;
@@ -607,7 +624,8 @@ a {
 }
 
 .service p,
-.description p {
+.description p,
+.about-item p {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
