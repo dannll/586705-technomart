@@ -562,6 +562,40 @@ a {
   background-color: #ee3643;
 }
 
+.product-hover-element a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #63a63e;
+  background-image: url("../img/cart-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.product-hover-element button {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #32425c;
+
+  border: none;
+  background-color: #ffffff;
+}
+
+.product-hover-element a:hover,
+.product-hover-element a:focus {
+  background-color: #5fbb2d;
+}
+
+.product-hover-element a:active {
+  background-color: #518534;
+}
+
+.product-hover-element button:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
 .pagination-item a {
   font-size: 13px;
   line-height: 18px;
