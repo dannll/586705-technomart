@@ -317,6 +317,12 @@ a {
   background-color: #ba2732;
 }
 
+.popular-product .new-item {
+  background-image: url("../img/new.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
 .popular-product li h3 {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 18px;
