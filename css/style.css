@@ -833,3 +833,7 @@ a {
 .modal-write-us button:active {
   background-color: #ba2732;
 }
+
+.modal-style-button {
+  background-color: #f4f4f4;
+}
