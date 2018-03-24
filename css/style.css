@@ -284,6 +284,117 @@ a {
   text-transform: uppercase;
 }
 
+.filter-form fieldset {
+  border: none;
+}
+
+.filter-name {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  background-color: #f7f3ec;
+}
+
+.filter-form legend {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-form-range,
+.min-price-range,
+.max-price-range {
+  background-color: #f7f3ec;
+  border: none;
+}
+
+.filter-form ul {
+  list-style: none;
+}
+
+.filter-form li {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter-form button[type="submit"] {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+
+  border: none;
+  background-color: #ffffff;
+}
+
+.filter-form input[type="checkbox"]:disabled + label {
+  color: rgba(0 , 0, 0, 0.4);
+}
+
+.catalog-sort {
+  background-color: #f7f3ec;
+}
+
+.sort-name {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.catalog-sort ul {
+  list-style: none;
+}
+
+.catalog-sort a {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: #ee3643;
+  text-decoration-style: dotted;
+}
+
+.catalog-sort .current-sort {
+  color: #ee3643;
+  text-decoration: none;
+}
+
+.sort-increase {
+  background-image: url("../img/icon-up-dir.svg");
+  background-repeat: no-repeat;
+}
+
+.sort-decrease {
+  background-image: url("../img/icon-down-dir.svg");
+  background-repeat: no-repeat;
+}
+
+.sort-increase a,
+.sort-decrease a {
+  font-size: 0;
+}
+
+.catalog-sort a:hover,
+.catalog-sort a:focus {
+  color: #000000;
+  text-decoration-style: solid;
+}
+
 .offering-header {
   font-size: 24px;
   line-height: 30px;

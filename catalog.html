@@ -71,14 +71,14 @@
 
       <section class="filter">
         <h2 class="visually-hidden">Фильтр товаров</h2>
-        <b>Фильтр</b>
+        <b class="filter-name">Фильтр:</b>
         <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
           <fieldset>
             <legend>Цена:</legend>
             <div class="filter-form-range"></div>
-            <input type="number" name="min-price">
+            <input type="number" name="min-price" class="min-price-range">
             <span>-</span>
-            <input type="number" name="max-price">
+            <input type="number" name="max-price" class="max-price-range">
           </fieldset>
           <fieldset>
             <legend>Производители:</legend>
@@ -127,13 +127,13 @@
 
         <div class="catalog-sort">
           <h3 class="visually-hidden">Сортировка товаров</h3>
-          <b>Сортировка</b>
+          <b class="sort-name">Сортировка</b>
           <ul>
-            <li><a href="#">По цене</a></li>
+            <li><a href="#" class="current-sort">По цене</a></li>
             <li><a href="#">По типу</a></li>
             <li><a href="#">По функционалу</a></li>
-            <li><a href="#">По возрастанию</a></li>
-            <li><a href="#">По убыванию</a></li>
+            <li class="sort-increase"><a href="#" aria-label="Сортировать по возврастанию">По возрастанию</a></li>
+            <li class="sort-decrease"><a href="#" aria-label="Сортировать по убыванию">По убыванию</a></li>
           </ul>
         </div>
 
