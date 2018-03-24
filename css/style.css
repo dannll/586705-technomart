@@ -423,6 +423,8 @@ a {
 }
 
 .list-service  {
+  background-image: url("../img/border-service.png");
+  background-repeat: no-repeat;
   list-style: none;
 }
 
@@ -436,6 +438,38 @@ a {
 
 .list-service a:hover {
   background-color: #293449;
+}
+
+.service-delivery {
+  background-image: url("../img/delivery.png");
+  background-repeat: no-repeat;
+}
+
+.service-guarantee {
+  background-image: url("../img/guarantee.png");
+  background-repeat: no-repeat;
+}
+
+.service-credit {
+  background-image: url("../img/credit.png");
+  background-repeat: no-repeat;
+}
+
+.service-credit a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #ff5357;
+}
+
+.service-credit a:hover,
+.service-credit a:focus {
+  background-color: #ca2c37;
+}
+
+.service-credit a:active {
+  background-color: #ba2732;
 }
 
 .description-company ul {
