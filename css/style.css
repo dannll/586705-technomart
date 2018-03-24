@@ -72,8 +72,8 @@ a {
 .header-form input[type="search"]:hover,
 .main-header-bookmark a:hover,
 .main-header-bookmark a:focus,
-.main-header-cart a:hover,
-.main-header-cart a:focus {
+.main-header-cart.no-item-cart a:hover,
+.main-header-cart.no-item-cart a:focus {
   background-color: #212a3a;
 }
 
@@ -87,11 +87,26 @@ a {
   background-repeat: no-repeat;
 }
 
+.main-header-cart.have-item-cart a {
+  background-color: #ee3643;
+}
+
+.main-header-cart.have-item-cart a:hover,
+.main-header-cart.have-item-cart a:focus {
+  background-color:  #ca2c37;
+}
+
 .main-header-bookmark a:active,
 .main-header-cart a:active {
   color: rgba(255, 255, 255, 0.6);
+}
 
+.main-header-cart.no-item-cart a:active {
   background-color: #161d29;
+}
+
+.main-header-cart.have-item-cart a:active {
+  background-color: #ba2732;
 }
 
 .header-form input[type="search"]::placeholder {
@@ -103,7 +118,7 @@ a {
   background-color: #ffffff
 }
 
-.main-header-order a{
+.main-header-order a {
   background-color: #63a63e;
 }
 
@@ -142,34 +157,72 @@ a {
   color: #32425c;
 }
 
-.header-login,
-.header-registration {
+.header-user-login,
+.header-user-registration {
   background-color: #ffffff;
 
   list-style: none;
 }
 
-.header-login {
+.header-user-login {
   background-image: url("../img/icon-login.svg");
   background-repeat: no-repeat;
 }
 
-.header-login a,
-.header-registration a {
+.header-user-login a,
+.header-user-registration a {
   font-size: 21px;
   line-height: 21px;
   color: #000000;
 }
 
-.header-login a:hover,
-.header-login a:focus,
-.header-registration a:hover,
-.header-registration a:focus {
+.header-user-main {
+  background-color: #ffffff;
+  background-image:
+                    url("../img/icon-logout.svg"),
+                    url("../img/icon-user.svg");
+  background-repeat: no-repeat;
+}
+
+.header-user-main .user-main-name {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.header-user-main .user-main-name:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.header-user .header-user-order,
+.header-user .header-user-cabinet {
+  font-size: 16px;
+  line-height: 18px;
+  color: #32425c;
+  text-decoration: underline;
+}
+
+.header-user .header-user-order:hover,
+.header-user .header-user-order:focus,
+.header-user .header-user-cabinet:hover,
+.header-user .header-user-cabinet:focus {
   color: #ee3643;
 }
 
-.header-login a:active,
-.header-registration a:active {
+.header-user .header-user-order:active,
+.header-user .header-user-cabinet:active {
+  color: rgba(50, 66, 92, 0.3);
+}
+
+.header-user-login a:hover,
+.header-user-login a:focus,
+.header-user-registration a:hover,
+.header-user-registration a:focus {
+  color: #ee3643;
+}
+
+.header-user-login a:active,
+.header-user-registration a:active {
   color: rgba(0, 0, 0, 0.3);
 }
 
