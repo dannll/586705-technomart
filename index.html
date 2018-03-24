@@ -3,39 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700%7CPT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="main-header">
-      <a>Техномарт</a>
-      <form class="header-form" method="get" action="https://echo.htmlacademy.ru">
-        <label for="header-form-search" class="visually-hidden">Поиск</label>
-        <input type="search" id="header-form-search" name="search" placeholder="Поиск">
-      </form>
-      <div class="main-header-bookmark">
-        <a href="#">Закладки: 0</a>
+      <div class="top-menu">
+        <a class="header-logo">Техномарт</a>
+        <form class="header-form" method="get" action="https://echo.htmlacademy.ru">
+          <label for="header-form-search" class="visually-hidden">Поиск</label>
+          <input type="search" id="header-form-search" name="search" placeholder="Поиск">
+        </form>
+        <div class="main-header-bookmark">
+          <a href="#">Закладки: 0</a>
+        </div>
+        <div class="main-header-cart no-item-cart">
+          <a href="#">Корзина: 0</a>
+        </div>
+        <div class="main-header-order">
+          <a href="#">Оформить заказ</a>
+        </div>
       </div>
-      <div class="main-header-cart">
-        <a href="#">Корзина: 10</a>
-      </div>
-      <div class="main-header-order">
-        <a href="#">Оформить заказ</a>
-      </div>
-      <p>
+      <p class="main-header-description">
         Интернет-магазин
-        Строительных материалов
+        cтроительных материалов
         и инструментов для ремонта
       </p>
       <section class="main-header-contacts">
         <h3 class="visually-hidden">Контакты магазина</h3>
-        <p><a href="tel:+78125550505">+7 (812) 555-05-05</a></p>
-        <p>г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
+        <p class="header-contacts-phone"><a href="tel:+78125550505">+7 (812) 555-05-05</a></p>
+        <p class="header-contacts-address">г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
       </section>
-      <div class="header-user-block">
+      <div class="header-user">
         <h3 class="visually-hidden">Блок пользователя</h3>
         <ul>
-          <li><a href="#">Войти</a></li>
-          <li><a href="#">Регистрация</a></li>
+          <li class="header-user-login"><a href="#">Войти</a></li>
+          <li class="header-user-registration"><a href="#">Регистрация</a></li>
         </ul>
       </div>
 
@@ -58,75 +63,79 @@
       <section class="offering">
         <h2 class="visually-hidden">Предложения магазина</h2>
         <section class="offering-materials">
-          <h3>Материалы</h3>
-          <a href="#">На любой вкус</a>
+          <h3 class="offering-header">Материалы</h3>
+          <a href="#" class="offering-link">На любой вкус</a>
         </section>
         <section class="offering-instruments">
-          <h3>Инструмент</h3>
-          <a href="#">На все случаи</a>
+          <h3 class="offering-header">Инструмент</h3>
+          <a href="#" class="offering-link">На все случаи</a>
         </section>
         <section class="offering-technic">
-          <h3>Техника</h3>
-          <a href="#">Для стройки</a>
+          <h3 class="offering-header">Техника</h3>
+          <a href="#" class="offering-link">Для стройки</a>
         </section>
         <section class="offering-slider">
-          <div class="slider-1">
+          <div class="slider slider-1">
             <h3>Перфораторы</h3>
             <b>Настоящие мужские игрушки</b>
-            <img src="img/slider_1.jpg" alt="Перфораторы" height="266" width="620">
+            <img src="img/slider-1.jpg" alt="Перфораторы" height="266" width="620">
           </div>
-          <div class="slider-2">
+          <div class="slider slider-2">
             <h3>Дрели</h3>
             <b>Соседям на радость!</b>
-            <img src="img/slider_2.jpg" alt="Дрели" height="266" width="620">
+            <img src="img/slider-2.jpg" alt="Дрели" height="266" width="620">
           </div>
           <button type="button" class="button-prev" aria-label="Предыдущий слайд"></button>
           <button type="button" class="button-next" aria-label="Следующий слайд"></button>
-          <a href="#">Открыть каталог</a>
+          <a href="#" class="offering-btn-open">Открыть каталог</a>
         </section>
         <section class="offering-sale">
-          <h3>Скидки 50%</h3>
-          <a href="#">На 350 товаров</a>
+          <h3 class="offering-header">Скидки 50%</h3>
+          <a href="#" class="offering-link">На 350 товаров</a>
         </section>
         <section class="offering-delivery">
-          <h3>Доставка</h3>
-          <a href="#">Бесплатно</a>
+          <h3 class="offering-header">Доставка</h3>
+          <a href="#" class="offering-link">Бесплатно</a>
         </section>
       </section>
 
       <section class="popular-product">
-        <h2>Популярные товары:</h2>
-        <a href="#">Все популярные товары</a>
+        <div class="popular-product-header">
+          <h2>Популярные товары:</h2>
+          <a href="#">Все популярные товары</a>
+        </div>
         <ul>
           <li>
             <img src="img/bfg-9000.jpg" alt="BOSCH BFG-9000" height="160" width="210">
             <h3>Перфоратор BOSCH BFG 9000</h3>
             <del>32500 P.</del>
-            <ins><a href="#">25500 P.</a></ins>
+            <ins>25500 P.</ins>
           </li>
           <li>
             <img src="img/bfg-3000.jpg" alt="BOSCH BFG-3000" height="160" width="210">
             <h3>Перфоратор BOSCH BFG 3000</h3>
             <del>22500 Р.</del>
-            <ins><a href="#">15500 Р.</a></ins>
+            <ins>15500 Р.</ins>
           </li>
           <li>
             <img src="img/bfg-6000.jpg" alt="BOSCH BFG-6000" height="160" width="210">
             <h3>Перфоратор BOSCH BFG 6000</h3>
             <del>30500 Р</del>
-            <ins><a href="#">25500 Р</a></ins>
+            <ins>25500 Р</ins>
           </li>
-          <li>
+          <li class="new-item">
             <img src="img/bfg-2000.jpg" alt="BOSCH BFG-2000" height="160" width="210">
             <h3>Перфоратор BOSCH BFG 2000</h3>
-            <a href="#">12500 P</a>
+            <span>12500 P</span>
           </li>
         </ul>
       </section>
 
       <section class="popular-brand">
-        <h2>Популярные производители</h2>
-        <a href="#">Все производители</a>
+        <div class="popular-brand-header">
+          <h2>Популярные производители</h2>
+          <a href="#">Все производители</a>
+        </div>
         <ul>
           <li><a href="#"><img src="img/bosch.png" alt="Bosch" height="37" width="126"></a></li>
           <li><a href="#"><img src="img/makita.png" alt="Makita" height="40" width="123"></a></li>
@@ -140,11 +149,12 @@
       </section>
 
       <section class="service">
-        <h2>Сервисы</h2>
+        <div class="service-header">
+          <h2>Сервисы</h2>
 
-        <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
-        <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-
+          <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
+          <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+        </div>
         <ul class="list-service">
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Гарантия</a></li>
@@ -152,8 +162,8 @@
         </ul>
         <div class="service-delivery">
           <h3>Доставка</h3>
-            <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!</p>
-            <p>Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
+          <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!</p>
+          <p>Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
         </div>
         <div class="service-guarantee">
           <h3>Гарантия</h3>
@@ -205,7 +215,7 @@
     </main>
     <footer class="main-footer">
       <div class="main-footer-top">
-        <a>Техномарт</a>
+        <a class="main-footer-logo">Техномарт</a>
         <ul class="footer-navigation-section">
           <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
@@ -234,9 +244,9 @@
         <div class="footer-social">
           <h3 class="visually-hidden">Социальные кнопки</h3>
           <ul>
-            <li><a href="#" aria-label="Вконтакте">Вконтакте</a></li>
-            <li><a href="#" aria-label="Фейсбук">Фейсбук</a></li>
-            <li><a href="#" aria-label="Инстаграм">Инстаграм</a></li>
+            <li class="footer-social-vkontakte"><a href="#" aria-label="Вконтакте">Вконтакте</a></li>
+            <li class="footer-social-facebook"><a href="#" aria-label="Фейсбук">Фейсбук</a></li>
+            <li class="footer-social-instagram"><a href="#" aria-label="Инстаграм">Инстаграм</a></li>
           </ul>
         </div>
         <div class="footer-feedback">
@@ -274,9 +284,11 @@
           <label for="modal-form-letter">Текст письма:</label>
           <textarea name="letter" id="modal-form-letter" placeholder="В свободной форме"></textarea>
         </p>
-        <button type="submit">Отправить</button>
+        <div class="modal-style-elem">
+          <button type="submit">Отправить</button>
+        </div>
       </form>
-      <button class="modal-close" type="button" aria-label="Закрыть окно с формой обратной связи"></button>
+        <button class="modal-close" type="button" aria-label="Закрыть окно с формой обратной связи"></button>
     </section>
 
     <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">Профессиональный HTML и CSS, уровень 1</a>».</p>
