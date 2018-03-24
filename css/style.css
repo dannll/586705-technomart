@@ -565,6 +565,21 @@ a {
   font-size: 0;
 }
 
+.footer-social-vkontakte {
+  background-image: url("../img/vk-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.footer-social-facebook {
+  background-image: url("../img/fb-icon.svg");
+  background-repeat: no-repeat;
+}
+
+.footer-social-instagram {
+  background-image: url("../img/insta-icon.svg");
+  background-repeat: no-repeat;
+}
+
 .modal-write-us label {
   font-size: 18px;
   line-height: 18px;
