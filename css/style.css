@@ -546,7 +546,8 @@ a {
   text-decoration: none;
 }
 
-.popular-product li a {
+.popular-product ins,
+.popular-product span {
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 18px;
@@ -554,15 +555,6 @@ a {
   font-weight: 700;
 
   background-color: #ee3643;
-}
-
-.popular-product a:hover,
-.popular-product a:focus {
-  background-color: #ca2c37;
-}
-
-.popular-product a:active {
-  background-color: #ba2732;
 }
 
 .popular-brand-header {
