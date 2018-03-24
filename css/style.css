@@ -816,7 +816,8 @@ a {
   color: #a9a9a9;
 }
 
-.modal-write-us button {
+.modal-write-us button,
+.modal-cart button {
   font-size: 14px;
   line-height: 18px;
   color: #ffffff;
@@ -834,6 +835,20 @@ a {
   background-color: #ba2732;
 }
 
-.modal-style-button {
+.modal-style-elem {
   background-color: #f4f4f4;
+}
+
+.modal-cart strong {
+  font-size: 30px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.modal-cart a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+
+  background-color: #ffffff;
 }
