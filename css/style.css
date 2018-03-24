@@ -245,6 +245,32 @@ a {
   background-color: #1d2739;
 }
 
+.breadcrumbs a {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  text-transform: uppercase;
+
+}
+
+.breadcrumbs-home-icon {
+  background-image:
+                    url("../img/icon-right-small.svg"),
+                    url("../img/icon-home.svg");
+  background-repeat: no-repeat;
+}
+
+.breadcrumbs-home-icon a {
+  font-size: 0;
+}
+
+.breadcrumbs li:not(.breadcrumbs-home-icon):not(.breadcrumbs-current) {
+  background-image:
+                    url("../img/icon-right-small.svg");
+  background-repeat: no-repeat;
+}
+
 .offering-header {
   font-size: 24px;
   line-height: 30px;
