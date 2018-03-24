@@ -31,6 +31,11 @@ a {
   background-color: #f3f7f9;
 }
 
+.main-header.inner-header-catalog,
+.inner-page-catalog h1 {
+  background-color: #f2f6f8;
+}
+
 .main-header a {
   color: #ffffff;
 }
@@ -269,6 +274,14 @@ a {
   background-image:
                     url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
+}
+
+.inner-page-catalog h1 {
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .offering-header {
