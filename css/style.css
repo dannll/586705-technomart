@@ -1263,10 +1263,110 @@ main {
 .inner-page-catalog {
   padding: 0;
   margin: 0;
+  padding-top: 23px;
+}
+
+.inner-page-catalog h1 {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 31px;
+  margin-bottom: 20px;
 }
 
 .breadcrumbs {
   display: flex;
   padding: 0;
   margin: 0;
+  margin-bottom: 12px;
+
+  min-height: 20px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.filter {
+  width: 220px;
+  margin-right: 20px;
+  outline: 2px solid red;
+}
+
+.filter ul,
+.filter fieldset,
+.filter legend {
+  padding: 0;
+  margin: 0;
+}
+
+.min-price-range,
+.max-price-range {
+  width: 95px;
+}
+
+.filter-name {
+  width: 220px;
+  min-height: 38px;
+}
+
+.catalog {
+  outline: 2px solid red;
+}
+
+.catalog-sort {
+  display: flex;
+  width: 700px;
+  margin-bottom: 20px;
+  outline: 2px solid red;
+  min-height: 38px;
+}
+
+.catalog-sort ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.catalog-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 33px;
+}
+
+.catalog-list li {
+  width: 220px;
+  margin-bottom: 20px;
+  outline: 2px solid green;
+  min-height: 317px;
+}
+
+.pagination-list ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 285px;
+  margin-bottom: 60px;
+
+  min-height: 40px;
+  outline: 2px solid red;
+}
+
+.about-item {
+  min-height: 194px;
+  padding-top: 66px;
+
+  outline : 2px solid red;
+}
+
+.about-item p {
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer {
+  outline: 2px solid red;
 }
