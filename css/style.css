@@ -762,7 +762,7 @@ a {
   background-color: #ba2732;
 }
 
-.main-footer-top {
+.main-footer {
   background-color: #32425c;
 }
 
@@ -1112,7 +1112,7 @@ main {
 }
 
 .service {
-
+  margin-bottom: 73px;
   min-height: 522px;
 }
 
@@ -1154,4 +1154,108 @@ main {
   width: 240px;
 
   min-height: 61px;
+}
+
+.description {
+  display: flex;
+
+  min-height: 457px;
+}
+
+.description h2 {
+  margin: 0;
+}
+
+.main-footer-top {
+  min-height: 193px;
+}
+
+.footer-container-top {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.footer-navigation-section {
+  display: flex;
+  width: 560px;
+  margin:0;
+  padding: 0;
+  outline: 2px solid green;
+}
+
+.footer-navigation-section li {
+  width: 100px;
+  flex-grow: 1;
+  outline: 2px solid red;
+}
+
+.footer-navigation-catalog {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 566px;
+
+  outline: 2px solid blue;
+}
+
+.main-footer-logo {
+  width: 220px;
+  margin-right: 160px;
+
+  min-height: 68px;
+}
+
+.footer-container-bottom {
+  display: flex;
+}
+
+.footer-navigation-catalog li {
+  outline: 2px solid red;
+  width: 140px;
+  flex-grow: 1;
+}
+
+.footer-contacts p {
+  padding: 0;
+  margin: 0;
+  margin-right: 65px;
+}
+
+.main-footer-bottom {
+  min-height: 107px;
+}
+
+.main-footer-bottom p {
+  margin: 0;
+  padding: 0;
+}
+
+.main-footer-bottom .container {
+  display: flex;
+  padding-top: 35px;
+}
+
+.footer-copyright {
+  width: 230px;
+  margin-right: 160px;
+  min-height: 45px;
+}
+
+.footer-social ul {
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  margin-right: 100px;
+
+  min-height: 45px;
+  outline: 2px solid red;
+}
+
+.footer-feedback {
+  width: 140px;
+  margin-right: 20px;
+}
+
+.footer-dev {
+  width: 140px;
 }
