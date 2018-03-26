@@ -632,6 +632,15 @@ a {
   background-color: #ee3643;
 }
 
+.popular-brand ul {
+  padding: 0;
+  margin: 0;
+}
+
+.popular-brand ul li {
+  border: 1px solid #eaeaea;
+}
+
 .popular-brand-header a:hover,
 .popular-brand-header a:focus {
   background-color: #ca2c37;
@@ -680,12 +689,14 @@ a {
   list-style: none;
 }
 
+.list-service li {
+  background-color: #32425c;
+}
+
 .list-service a {
   font-size: 21px;
   line-height: 30px;
-  color: #ffffff;
-
-  background-color: #32425c;
+  color: #ffffff
 }
 
 .list-service a:hover {
@@ -1058,6 +1069,10 @@ main {
   margin-top: 20px;
 }
 
+.popular-product {
+  margin-bottom: 0;
+}
+
 .popular-product ul {
   display: flex;
   justify-content: space-between;
@@ -1069,4 +1084,74 @@ main {
   width: 220px;
   min-height: 318px;
   outline: 2px solid blue;
+}
+
+.popular-brand {
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+.popular-brand-header {
+  margin-bottom: 20px;
+
+  min-height: 90px;
+  outline: 2px solid red;
+}
+
+.popular-brand ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.popular-brand ul li {
+  flex-basis: 220px;
+  margin-bottom: 20px;
+
+  min-height: 145px;
+}
+
+.service {
+
+  min-height: 522px;
+}
+
+.service .container {
+  padding-top: 34px;
+}
+
+.service-header {
+  margin-bottom: 72px;
+}
+
+.service-container {
+  display: flex;
+}
+
+.service p {
+  padding: 0;
+  margin: 0;
+}
+
+.service h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.service h3 {
+  margin: 0;
+}
+
+.list-service {
+  padding: 0;
+  margin: 0;
+  margin-right: 70px;
+  min-height: 183px;
+}
+
+.list-service li {
+  margin: 0;
+  width: 240px;
+
+  min-height: 61px;
 }
