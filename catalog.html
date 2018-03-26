@@ -11,62 +11,70 @@
 
     <header class="main-header inner-header-catalog">
       <div class="top-menu">
-        <a href="index.html" class="header-logo">Техномарт</a>
-        <form class="header-form" method="post" action="https://echo.htmlacademy.ru">
-          <label for="header-form-search" class="visually-hidden">Поиск</label>
-          <input type="search" id="header-form-search" name="search" placeholder="Поиск">
-        </form>
-        <div class="main-header-bookmark">
-          <a href="#">Закладки: 0</a>
-        </div>
-        <div class="main-header-cart have-item-cart">
-          <a href="#">Корзина: 10</a>
-        </div>
-        <div class="main-header-order">
-          <a href="#">Оформить заказ</a>
+        <div class="container">
+          <a href="index.html" class="header-logo">Техномарт</a>
+          <form class="header-form" method="post" action="https://echo.htmlacademy.ru">
+            <label for="header-form-search" class="visually-hidden">Поиск</label>
+            <input type="search" id="header-form-search" name="search" placeholder="Поиск">
+          </form>
+          <div class="main-header-bookmark">
+            <a href="#">Закладки: 0</a>
+          </div>
+          <div class="main-header-cart have-item-cart">
+            <a href="#">Корзина: 10</a>
+          </div>
+          <div class="main-header-order">
+            <a href="#">Оформить заказ</a>
+          </div>
         </div>
       </div>
-      <p class="main-header-description">
-        Интернет-магазин
-        cтроительных материалов
-        и инструментов для ремонта
-      </p>
-      <section class="main-header-contacts">
-        <h3 class="visually-hidden">Контакты магазина</h3>
-        <p class="header-contacts-phone"><a href="tel:+78125550505">+7 (812) 555-05-05</a></p>
-        <p class="header-contacts-address">г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
-      </section>
-      <div class="header-user">
-        <h3 class="visually-hidden">Блок пользователя</h3>
-        <div class="header-user-main">
-          <a href="#" class="user-main-name">Равшан Джамшутович</a>
-          <a href="#" aria-label="Выйти из учетной записи">Выйти</a>
+
+      <div class="header-center container">
+        <p class="main-header-description">
+          Интернет-магазин
+          cтроительных материалов
+          и инструментов для ремонта
+        </p>
+        <section class="main-header-contacts">
+          <h3 class="visually-hidden">Контакты магазина</h3>
+          <p class="header-contacts-phone"><a href="tel:+78125550505">+7 (812) 555-05-05</a></p>
+          <p class="header-contacts-address">г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8</p>
+        </section>
+        <div class="header-user">
+          <h3 class="visually-hidden">Блок пользователя</h3>
+          <div class="header-user-main">
+            <a href="#" class="user-main-name">Равшан Джамшутович</a>
+            <a href="#" aria-label="Выйти из учетной записи">Выйти</a>
+          </div>
+            <a href="#" class="header-user-order">Мои заказы</a>
+            <a href="#" class="header-user-cabinet">Личный кабинет</a>
         </div>
-          <a href="#" class="header-user-order">Мои заказы</a>
-          <a href="#" class="header-user-cabinet">Личный кабинет</a>
       </div>
-      <nav class="main-navigation">
-        <ul>
-          <li><a href="#">Главная</a></li>
-          <li><a href="#">Компания</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Новости</a></li>
-          <li><a href="#">Спецпредложения</a></li>
-          <li><a href="#">Доставка</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
-      </nav>
+
+      <div class="header-bottom container">
+        <nav class="main-navigation">
+          <ul>
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Компания</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Спецпредложения</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main class="inner-page-catalog">
-
-      <ul class="breadcrumbs">
-        <li class="breadcrumbs-home-icon"><a href="#">Главная</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Инструмент</a></li>
-        <li class="breadcrumbs-current"><a>Перфораторы</a></li>
-      </ul>
-
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-home-icon"><a href="#">Главная</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li class="breadcrumbs-current"><a>Перфораторы</a></li>
+        </ul>
+      </div>
       <h1>Перфораторы</h1>
 
       <section class="filter">
@@ -275,13 +283,15 @@
 
       </section>
       <section class="about-item">
-        <h2 class="visually-hidden">Описание перфораторов</h2>
-        <b>Пара слов о перфораторах</b>
-        <p>
-          Перфоратор - универсальный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
-          Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
-          ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
-        </p>
+        <div class="container">
+          <h2 class="visually-hidden">Описание перфораторов</h2>
+          <b>Пара слов о перфораторах</b>
+          <p>
+            Перфоратор - универсальный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+            Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
+            ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
+          </p>
+        </div>
       </section>
     </main>
 
@@ -333,7 +343,7 @@
       </div>
     </footer>
 
-    <section class="modal-cart">
+    <section class="modal-cart visually-hidden">
       <button class="modal-close" type="button"></button>
       <strong>Товар добавлен в корзину!</strong>
       <div class="modal-style-elem">
