@@ -83,47 +83,53 @@
             <b class="filter-name">Фильтр:</b>
           </div>
           <form class="filter-form" method="get" action="https://echo.htmlacademy.ru">
-            <fieldset>
-              <legend>Цена:</legend>
-              <div class="filter-form-range"></div>
-              <input type="number" name="min-price" class="min-price-range">
-              <span>-</span>
-              <input type="number" name="max-price" class="max-price-range">
+            <fieldset class="filter-form-price">
+              <legend><span class="filter-form-category">Цена:</span></legend>
+              <div class="filter-form-range">
+                <div class="filter-range-line">
+                  <div class="range-value"></div>
+                  <button value="button" class="range-min"></button>
+                  <button value="button" class="range-max"></button>
+                </div>
+              </div>
+              <input type="text" name="min-price" class="min-price-range" value="0">
+              <span class="form-range-dash">&mdash;</span>
+              <input type="text" name="max-price" class="max-price-range" value="30000">
             </fieldset>
-            <fieldset>
-              <legend>Производители:</legend>
+            <fieldset class="filter-form-produced">
+              <legend><span  class="filter-form-category">Производители:</span></legend>
               <ul>
                 <li>
-                  <input type="checkbox" name="bosch" id="filter-form-bosch" checked>
+                  <input type="checkbox" name="bosch" id="filter-form-bosch" class="visually-hidden" checked>
                   <label for="filter-form-bosch">Bosch</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="interskol" id="filter-form-interskol">
+                  <input type="checkbox" name="interskol" id="filter-form-interskol" class="visually-hidden">
                   <label for="filter-form-interskol">Интерскол</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="makita" id="filter-form-makita" checked>
+                  <input type="checkbox" name="makita" id="filter-form-makita" class="visually-hidden" checked>
                   <label for="filter-form-makita">Makita</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="dewalt" id="filter-form-dewalt">
+                  <input type="checkbox" name="dewalt" id="filter-form-dewalt" class="visually-hidden">
                   <label for="filter-form-dewalt">Dewalt</label>
                 </li>
                 <li>
-                  <input type="checkbox" name="hitachi" id="filter-form-hitachi">
+                  <input type="checkbox" name="hitachi" id="filter-form-hitachi" class="visually-hidden">
                   <label for="filter-form-hitachi">Hitachi</label>
                 </li>
               </ul>
             </fieldset>
-            <fieldset>
-              <legend>Питание:</legend>
+            <fieldset class="filter-form-source">
+              <legend><span  class="filter-form-category">Питание:</span></legend>
               <ul>
                 <li>
-                  <input type="radio" name="source-of-power" value="accumulator" id="filter-form-accumulator">
+                  <input type="radio" name="source-of-power" value="accumulator" id="filter-form-accumulator" class="visually-hidden" checked>
                   <label for="filter-form-accumulator">Аккумуляторные</label>
                 </li>
                 <li>
-                  <input type="radio" name="source-of-power" value="rosette" id="filter-form-rossete">
+                  <input type="radio" name="source-of-power" value="rosette" id="filter-form-rossete" class="visually-hidden">
                   <label for="filter-form-rossete">Сетевые</label>
                 </li>
               </ul>
@@ -137,7 +143,7 @@
 
           <div class="catalog-sort">
             <h3 class="visually-hidden">Сортировка товаров</h3>
-            <b class="sort-name">Сортировка</b>
+            <b class="sort-name">Сортировка:</b>
             <ul>
               <li><a href="#" class="current-sort">По цене</a></li>
               <li><a href="#">По типу</a></li>
@@ -279,10 +285,10 @@
           <div class="pagination-list">
             <h3 class="visually-hidden">Навигация по страницам</h3>
             <ul>
-              <li class="pagination-item pagination-item-current"><a>1</a></li>
+              <li class="pagination-item"><a class="pagination-item-current">1</a></li>
               <li class="pagination-item"><a href="#">2</a></li>
               <li class="pagination-item"><a href="#">3</a></li>
-              <li class="pagination-item"><a href="#">Следующий</a></li>
+              <li class="pagination-item"><a href="#" class="pagination-item-next">Следующая</a></li>
             </ul>
           </div>
         </div>
@@ -292,8 +298,8 @@
         <div class="container">
           <h2 class="visually-hidden">Описание перфораторов</h2>
           <b>Пара слов о перфораторах</b>
-          <p>
-            Перфоратор - универсальный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
+          <p class="about-item-description">
+            Перфоратор - универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне.<br>
             Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
             ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.
           </p>
