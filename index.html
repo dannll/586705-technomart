@@ -186,10 +186,10 @@
       <section class="popular-brand container">
 
         <div class="popular-brand-header">
-          <h2>Популярные производители</h2>
+          <h2>Популярные производители:</h2>
           <a href="#">Все производители</a>
         </div>
-        <ul>
+        <ul class="popular-catalog-brand">
           <li><a href="#"><img src="img/bosch.png" alt="Bosch" height="37" width="126"></a></li>
           <li><a href="#"><img src="img/makita.png" alt="Makita" height="40" width="123"></a></li>
           <li><a href="#"><img src="img/dewalt.png" alt="DeWalt" height="44" width="146"></a></li>
@@ -210,11 +210,13 @@
             <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
           </div>
           <div class="service-container">
-            <ul class="list-service">
-              <li><a href="#">Доставка</a></li>
-              <li><a href="#">Гарантия</a></li>
-              <li><a href="#">Кредит</a></li>
-            </ul>
+            <div class="list-container">
+              <ul class="list-service">
+                <li class="current-service"><a href="#">Доставка</a></li>
+                <li><a href="#">Гарантия</a></li>
+                <li><a href="#">Кредит</a></li>
+              </ul>
+            </div>
             <div class="service-delivery">
               <h3>Доставка</h3>
               <p>Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно!</p>
@@ -248,14 +250,16 @@
             Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
             строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
           </p>
+          <div class="description-delivery">
             <p>Мы можем доставить ваш товар в самые отдаленные точки России!</p>
             <p>Техномарт работает со многими транспортными компаниями:</p>
+          </div>
           <ul>
             <li>Деловые линии</li>
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <a href="#">Подробнее о компании</a>
+          <a href="#" class="about-company">Подробнее о компании</a>
         </article>
         <article class="description-contacts">
           <h2>Контакты</h2>
@@ -264,7 +268,7 @@
             заехав в наш офис:
           </p>
           <img src="img/map.png" alt="г.Санкт-Петербург, ул.Б.Конюшенная, д. 19/8" height="158" width="300">
-          <a href="#">Заблудились? Напишите нам!</a>
+          <a href="#" class="description-write-us">Заблудились? Напишите нам!</a>
         </article>
       </section>
 
