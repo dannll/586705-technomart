@@ -88,7 +88,7 @@ a {
   width: 16px;
   height: 16px;
   z-index: 10;
-  left: 19px;
+  left: 20px;
   top: 12px;
   opacity: 0.3;
 }
@@ -96,6 +96,7 @@ a {
 .header-form::before {
   background-image: url("../img/icon-search.svg");
   background-repeat: no-repeat;
+  left: 18px;
 }
 
 .main-header-bookmark::before {
@@ -132,7 +133,7 @@ a {
 .main-header-cart {
   position:relative;
   width: 80px;
-  padding-left: 45px;
+  padding-left: 47px;
   padding-right: 25px;
   padding-top: 12px;
   padding-bottom: 12px;
@@ -1695,7 +1696,8 @@ body {
   min-width: 960px;
 }
 
-main {
+.main-page {
+  display: block;
   padding-top: 60px;
 }
 
@@ -1715,7 +1717,7 @@ main {
 }
 
 .top-menu {
-  margin-bottom: 47px;
+  margin-bottom: 40px;
 }
 
 .top-menu .container {
@@ -1738,15 +1740,17 @@ main {
 
 .header-center {
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 38px;
+  padding-top: 5px;
 }
 
 .main-header-description {
   width: 200px;
   margin: 0;
   padding: 0;
-  margin-left: 50px;
+  margin-left: 52px;
   margin-right: 71px;
+  padding-top: 3px;
   /*Помощь при построении сеток*/
 }
 
