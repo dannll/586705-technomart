@@ -340,17 +340,19 @@ a {
 }
 
 .user-account .header-user-main {
+  display: flex;
   position: relative;
+  align-items: center;
   background-color: #ffffff;
-  width: 190px;
-  padding-left: 47px;
+  width: 300px;
+  /*padding-left: 47px;
   padding-right: 63px;
   padding-top: 10px;
-  padding-bottom: 6px;
-  margin-bottom: 8px;
+  padding-bottom: 6px;*/
+  margin-bottom: 6px;
 }
 
-.user-account .header-user-main::before {
+/*.user-account .header-user-main::before {
   content: "";
   position: absolute;
   width: 20px;
@@ -358,9 +360,9 @@ a {
   left: 14px;
   top: 10px;
   background-image: url("../img/icon-user.svg");
-}
+}*/
 
-.user-account .header-user-main::after {
+/*.user-account .header-user-main::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -369,10 +371,29 @@ a {
   top: 11px;
   background-image: url("../img/icon-logout.svg");
   background-repeat: no-repeat;
+}*/
+
+.user-logout,
+.user-login {
+  font-size: 0;
+  display: block;
+  width: 20px;
+  height: 18px;
+  margin-top: 13px;
+  margin-bottom: 13px;
 }
 
 .user-logout {
-  font-size: 0;
+  margin-left: 36px;
+  background-image: url("../img/icon-logout.svg");
+  background-repeat: no-repeat;
+}
+
+.user-login {
+  margin-left: 15px;
+  margin-right: 13px;
+  background-image: url("../img/icon-user.svg");
+  background-repeat: no-repeat;
 }
 
 .main-navigation ul {
