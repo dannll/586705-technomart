@@ -522,6 +522,10 @@ a {
   right: 20px;
 }
 
+.filter-range-line button {
+  cursor: pointer;
+}
+
 .min-price-range,
 .max-price-range {
   background-color: #f7f3ec;
@@ -1351,6 +1355,12 @@ input[type="radio"]:checked + label::before {
   line-height: 18px;
   color: #ffffff;
   background-color: #ee3643;
+}
+
+.description-contacts .contacts-map-link {
+  font-size: 0;
+  line-height: 0;
+  background-color: none;
 }
 
 .about-company {
