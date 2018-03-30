@@ -333,28 +333,31 @@
       <button class="modal-close" type="button" aria-label="Закрыть окно с картой"></button>
     </section>
 
-    <section class="modal-write-us visually-hidden">
+    <section class="modal-write-us">
       <h2 class="visually-hidden">Форма обратной связи</h2>
       <form class="modal-form" method="post" action="https://echo.htmlacademy.ru">
-        <p>
-          <label for="modal-form-name">Ваше имя:</label>
-          <br>
-          <input type="text" name="name" id="modal-form-name" placeholder="Представьтесь, пожалуйста">
-        </p>
-        <p>
-          <label for="modal-form-email">Ваш e-mail</label>
-          <br>
-          <input type="email" name="email" id="modal-form-email" placeholder="Для отправки ответа">
-        </p>
-        <p>
-          <label for="modal-form-letter">Текст письма:</label>
-          <textarea name="letter" id="modal-form-letter" placeholder="В свободной форме"></textarea>
-        </p>
-        <div class="modal-style-elem">
+        <div class="form-input-wrapper">
+          <p class="modal-row-name">
+            <label for="modal-form-name">Ваше имя:</label>
+            <br>
+            <input type="text" name="name" id="modal-form-name" placeholder="Представьтесь, пожалуйста">
+          </p>
+          <p class="modal-row-email">
+            <label for="modal-form-email">Ваш e-mail</label>
+            <br>
+            <input type="email" name="email" id="modal-form-email" placeholder="Для отправки ответа">
+          </p>
+          <p class="modal-row-letter">
+            <label for="modal-form-letter">Текст письма:</label>
+            <br>
+            <textarea name="letter" id="modal-form-letter" placeholder="В свободной форме"></textarea>
+          </p>
+        </div>
+        <div class="modal-submit-button">
           <button type="submit">Отправить</button>
         </div>
       </form>
-        <button class="modal-close" type="button" aria-label="Закрыть окно с формой обратной связи"></button>
+      <button class="modal-close" type="button" aria-label="Закрыть окно с формой обратной связи"></button>
     </section>
 
     <p class="visually-hidden">Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">Профессиональный HTML и CSS, уровень 1</a>».</p>
