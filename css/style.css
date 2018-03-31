@@ -1402,7 +1402,6 @@ input[type="radio"]:checked + label::before {
 .description-contacts .contacts-map-link {
   font-size: 0;
   line-height: 0;
-  background-color: none;
 }
 
 .about-company {
@@ -1657,7 +1656,7 @@ input[type="radio"]:checked + label::before {
   font-size: 30px;
   line-height: 30px;
   margin: 0;
-  font-weight: 400px;
+  font-weight: 400;
   color: #000000;
   padding-left: 178px;
   padding-top: 18px;
