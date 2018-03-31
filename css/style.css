@@ -1316,14 +1316,14 @@ input[type="radio"]:checked + label::before {
 .service-delivery {
   background-image: url("../img/delivery.png");
   background-repeat: no-repeat;
-  background-position: 155px 23px;
+  background-position: 150px 21px;
 }
 
 .service-delivery h3,
 .service-guarantee h3,
 .service-credit h3 {
   margin-top: 0;
-  margin-bottom: 24px;
+  margin-bottom: 31px;
 }
 
 .service-guarantee {
