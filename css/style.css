@@ -779,8 +779,18 @@ input[type="radio"]:checked + label::before {
   height: 266px;
 }
 
+.slider-container {
+  display: flex;
+  width: 620px;
+  overflow: hidden;
+}
+
+.slider-1 {
+  flex-shrink: 0;
+}
+
 .slider-2 {
-  display: none;
+  flex-shrink: 0;
 }
 
 .slider h3 {
