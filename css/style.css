@@ -1212,6 +1212,10 @@ input[type="radio"]:checked + label::before {
   margin-left: 8px;
 }
 
+.popular-catalog-brand img[alt="Hitachi"] {
+  margin-bottom: 0;
+}
+
 .popular-catalog-brand li {
   display: flex;
   justify-content: center;
@@ -1946,7 +1950,7 @@ body {
 
 .popular-brand {
   margin-top: 0;
-  margin-bottom: 57px;
+  margin-bottom: 62px;
 }
 
 .popular-brand-header {
@@ -1965,7 +1969,7 @@ body {
   flex-basis: 220px;
   margin-bottom: 20px;
 
-  min-height: 145px;
+  min-height: 143px;
 }
 
 .service {
@@ -1978,7 +1982,7 @@ body {
 }
 
 .service-header {
-  margin-bottom: 70px;
+  margin-bottom: 73px;
 }
 
 .service-container {
