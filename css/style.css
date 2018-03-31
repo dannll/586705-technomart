@@ -1207,6 +1207,11 @@ input[type="radio"]:checked + label::before {
   margin-bottom: 6px;
 }
 
+.popular-catalog-brand img[alt="Metabo"] {
+  margin-bottom: 11px;
+  margin-left: 8px;
+}
+
 .popular-catalog-brand li {
   display: flex;
   justify-content: center;
