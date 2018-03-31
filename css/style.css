@@ -2309,6 +2309,9 @@ body {
 
 .catalog-list {
   display: flex;
+  -ms-flex-direction: row;
+  -ms-flex-wrap: wrap;
+  width: 700px;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0;
