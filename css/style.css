@@ -781,12 +781,10 @@ input[type="radio"]:checked + label::before {
 
 .slider-container {
   display: flex;
-  width: 620px;
-  overflow: hidden;
 }
 
 .slider-1 {
-  flex-shrink: 0;
+ flex-shrink: 0;
 }
 
 .slider-2 {
@@ -1850,6 +1848,8 @@ body {
 .offering-slider {
   /*outline: 2px solid red;*/
   position: relative;
+  overflow: hidden;
+  width: 620px;
 }
 
 .offering-block {
