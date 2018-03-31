@@ -1046,7 +1046,7 @@ input[type="radio"]:checked + label::before {
   margin-left: 42px;
   padding-left: 19px;
   padding-right: 22px;
-  padding-top: 10px;
+  padding-top: 12px;
   padding-bottom: 10px;
   border-radius: 3px;
   background-color: #ee3643;
@@ -2118,7 +2118,7 @@ body {
 
 .footer-contacts {
   width: 324px;
-  margin-right: 42px;
+  margin-right: 41px;
   margin-left: 3px;
 }
 
@@ -2182,6 +2182,7 @@ body {
 }
 
 .inner-page-catalog {
+  display: block;
   padding: 0;
   margin: 0;
   padding-top: 20px;
