@@ -80,6 +80,11 @@ a {
   background-color: #293449;
 }
 
+input:-ms-input-placeholder,
+input::-moz-placeholder {
+  color: #ffffff;
+}
+
 .header-form::before,
 .main-header-bookmark::before,
 .main-header-cart::before {
@@ -2137,7 +2142,7 @@ body {
 }
 
 .footer-copyright {
-  width: 225px;
+  width: 226px;
   margin-right: 165px;
   min-height: 45px;
   margin-left: 1px;
@@ -2151,6 +2156,7 @@ body {
   width: 135px;
   margin-right: 115px;
   min-height: 45px;
+  list-style: none;
 }
 
 .footer-social li {
