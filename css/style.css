@@ -1245,16 +1245,18 @@ input[type="radio"]:checked + label::before {
 
 .description-write-us {
   display: block;
-  margin-top: 35px;
+  margin-top: 36px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 3px;
   text-transform: uppercase;
+  padding-left: 6px;
 }
 
 .description h2 {
   margin-top: 0;
+  margin-bottom: 27px;
 }
 
 .description-company {
@@ -1262,8 +1264,8 @@ input[type="radio"]:checked + label::before {
 }
 
 .description-delivery {
-  margin-top: 27px;
-  margin-bottom: 20px;
+  margin-top: 24px;
+  margin-bottom: 21px;
 }
 
 .description-delivery p {
@@ -1383,7 +1385,7 @@ input[type="radio"]:checked + label::before {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-bottom: 35px;
+  margin-bottom: 38px;
 }
 
 .description-company li {
