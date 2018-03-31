@@ -945,7 +945,7 @@ input[type="radio"]:checked + label::before {
 }
 
 .popular-brand-header {
-  padding-top: 5px;
+  padding-top: 3px;
 }
 
 .popular-brand-header h2 {
@@ -972,7 +972,6 @@ input[type="radio"]:checked + label::before {
 .popular-brand-header a {
   padding-left: 70px;
   padding-right: 70px;
-  margin-top: 17px;
 }
 
 .popular-product-header a:hover,
@@ -1038,7 +1037,7 @@ input[type="radio"]:checked + label::before {
   color: #ffffff;
   font-weight: 700;
   width: 142px;
-  margin-left: 44px;
+  margin-left: 42px;
   padding-left: 19px;
   padding-right: 22px;
   padding-top: 10px;
@@ -1204,7 +1203,8 @@ input[type="radio"]:checked + label::before {
   background-color: #ba2732;
 }
 
-.popular-catalog-brand {
+.popular-catalog-brand img {
+  margin-bottom: 6px;
 }
 
 .popular-catalog-brand li {
