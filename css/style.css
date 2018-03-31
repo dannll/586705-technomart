@@ -2330,7 +2330,7 @@ body {
 }
 
 .pagination-list li {
-  margin-right: 10px;
+  margin-right: 7px;
 }
 
 .pagination-list a {
@@ -2349,21 +2349,21 @@ body {
 .pagination-list .pagination-item-current {
   background-color: #ee3643;
   color: #ffffff;
-  padding-left: 17px;
-  padding-right: 17px;
+  padding-left: 16px;
+  padding-right: 16px;
   padding-top: 11px;
   padding-bottom: 11px;
 }
 
 .pagination-list .pagination-item-next {
   text-transform: uppercase;
-  padding-left: 30px;
+  padding-left: 33px;
   padding-right: 30px;
   font-family: "PT Sans", Arial, sans-serif;
 }
 
 .about-item {
-  padding-top: 63px;
+  padding-top: 65px;
   min-height: 197px;
   /*outline : 2px solid red;*/
 }
