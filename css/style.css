@@ -1293,30 +1293,60 @@ input[type="radio"]:checked + label::before {
   background-color: #293449;
 }
 
-.service-delivery {
+.service-delivery,
+.service-guarantee,
+.service-credit {
   width: 620px;
+}
+
+.service-delivery {
   background-image: url("../img/delivery.png");
   background-repeat: no-repeat;
   background-position: 155px 23px;
 }
 
-.service-delivery h3 {
+.service-delivery h3,
+.service-guarantee h3,
+.service-credit h3 {
   margin-top: 0;
   margin-bottom: 24px;
 }
 
-.service-delivery p:last-child {
+.service-guarantee {
+  padding-right: 243px;
+}
+
+.service-delivery p:last-child,
+.service-guarantee p:last-child {
   margin-bottom: 125px;
+}
+
+.service-credit .service-credit-description {
+  margin-bottom: 30px;
+}
+
+.service-credit a {
+  display: block;
+  width: 107px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 3px;
+  margin-bottom: 105px;
 }
 
 .service-guarantee {
   background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
+  background-position: 240px 0;
 }
 
 .service-credit {
   background-image: url("../img/credit.png");
   background-repeat: no-repeat;
+  background-position: 150px 0px;
 }
 
 .service-credit a {
