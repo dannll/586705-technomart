@@ -1336,7 +1336,7 @@ input[type="radio"]:checked + label::before {
 }
 
 .service-credit .service-credit-description {
-  margin-bottom: 30px;
+  margin-bottom: 27px;
 }
 
 .service-credit a {
@@ -1354,13 +1354,13 @@ input[type="radio"]:checked + label::before {
 .service-guarantee {
   background-image: url("../img/guarantee.png");
   background-repeat: no-repeat;
-  background-position: 240px 0;
+  background-position: 237px -2px;
 }
 
 .service-credit {
   background-image: url("../img/credit.png");
   background-repeat: no-repeat;
-  background-position: 150px 0px;
+  background-position: 164px -5px;
 }
 
 .service-credit a {
